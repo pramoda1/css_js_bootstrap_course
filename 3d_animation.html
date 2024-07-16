@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        #mydiv{
+            background-color: red;
+            height: 200px;
+            width: 200px;
+            animation-name: example;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-delay: 2s;
+            animation-direction: alternate;
+            border-radius: 100%;
+
+        }
+        @keyframes example {
+            0%{background-color: red; left: 0px; top: 0px;}
+            25%{background-color: green; left: 200px; top: 0px}
+            50%{background-color: black; left: 200px; top:200px;}
+            75%{background-color: aqua; left: 0px; top: 200px}
+            100%{background-color: blue; left: 0px; top: 0px}
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="mydiv">hii </div>
+   
+</body>
+</html>
